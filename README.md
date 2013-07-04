@@ -2,7 +2,7 @@
 
 Installs xctool, a replacement for Apple's xcodebuild that makes it easier to build and test iOS and Mac projects.
 
-[![Build Status](https://travis-ci.org/detroit-labs/puppet-xctool.png?branch=master)](https://travis-ci.org/detroit-labs/puppet-xctool)
+[![Build Status](https://travis-ci.org/boxen/puppet-xctool.png?branch=master)](https://travis-ci.org/boxen/puppet-xctool)
 
 ## Required Puppet Modules
 
