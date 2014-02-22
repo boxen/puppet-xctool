@@ -3,9 +3,16 @@
 # Usage:
 #
 #     include xctool
-class xctool {
+#
+#   Or:
+#
+#     class {'xctool':
+#       version => '0.1.14'
+#     }
+#
+class xctool($version='latest') {
   package { 'xctool':
-    ensure    => 'latest',
+    ensure    => $version,
     provider  => 'homebrew'
   }
 }
